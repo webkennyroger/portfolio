@@ -78,10 +78,6 @@ i{
 body{
     background: var(--body-color);
 }
-.container{
-    width: 100%;
-    position: relative;
-}
 
 /* ----- MENU ----- */
 nav{
@@ -265,16 +261,7 @@ nav{
 .section{
     padding-block: 5em;
 }
-.row{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    gap: 50px;
-}
-.col{
-    display: flex;
-    width: 50%;
-}
+
 
 /* -- ## --- CSS -- ## -- */
 .top-header{
@@ -327,6 +314,7 @@ h3{
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
+    width: 100%;
 }
 .skills-list span{
     font-size: 14px;
@@ -350,7 +338,6 @@ h3{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 30%;
     height: 250px;
     background: var(--color-white);
     border-radius: 20px;
@@ -575,17 +562,8 @@ footer{
         width: 150px;
         height: 150px;
     }
-    .row{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 50px;
-    }
-    .col{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
+
+
     .about-info, .contact-info{
         width: 100%;
     }
